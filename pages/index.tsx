@@ -1,6 +1,6 @@
-import type { NextPage } from 'next'
+import type { NextPage } from "next";
 
-import {DefaultLayout} from 'components/layouts'
+import { DefaultLayout } from "components/layouts";
 
 const Home: NextPage = () => {
   return (
@@ -9,9 +9,9 @@ const Home: NextPage = () => {
         <h1>
           Welcome to <a href="https://jkrymarys.pl">my-website-v2</a>
         </h1>
-      </main> 
+      </main>
     </DefaultLayout>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;
